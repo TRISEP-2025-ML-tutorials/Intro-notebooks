@@ -8,7 +8,7 @@ def print_instructions():
     textfile = open('jupyter_logbook.txt', 'r')
     matches = []
     reg = re.compile(r'^\s+http://127.0.0.1:([0-9]*)')
-    print(f"reg: {reg}")
+    #print(f"reg: {reg}")
     for line in textfile:
         match=reg.match(line)
         if match is not None:
