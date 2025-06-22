@@ -6,7 +6,7 @@ Gives you a quick run through on how to set up your working environment that you
 
 If you are a Beginner - it would probably serve you best to go through the notebooks below. If you already did some ML projects - pick and choose according to where you might have a gap in experience.
 
-## [Jupyter tips and tricks.ipynb](Jupyter tips and tricks.ipynb)
+## [Jupyter tips and tricks](Jupyter tips and tricks.ipynb)
 If you plan to use jupyter you might find some useful tricks here.
 
 
