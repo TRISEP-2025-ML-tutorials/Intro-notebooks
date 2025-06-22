@@ -17,7 +17,7 @@ If you plan to use jupyter you might find some useful tricks here.
 In this notebook we explore how tensors are treated in pytorch - and how to efficiently structure your code through the application of broadcasting. We alo look at the computational graph and backpropagation.
 
 ## [deep_learning_building_blocks.ipynb](https://github.com/TRISEP-2025-ML-tutorials/Intro-notebooks/blob/main/deep_learning_building_blocks.ipynb)
-Here we get clser to actual deep learning practice - how to set up most basic models and run a training loop. How would one implement basic layers in deep networks.
+Here we get closer to actual deep learning practice - how to set up most basic models and run a training loop. How would one implement basic layers in deep networks.
 
 ## [fundamentals_in_numpy.ipynb](https://github.com/TRISEP-2025-ML-tutorials/Intro-notebooks/blob/main/fundamentals_in_numpy.ipynb)
 This is only for the interested - how we might go about backprobagation 'by hand' using numpy only. In practice some ML library would always be used. 
