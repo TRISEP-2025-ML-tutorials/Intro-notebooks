@@ -1,5 +1,5 @@
 # Intro
-This document describes how to log in, run the apptainer container, cuda setup, container and how to start up jupyter (and 'tunnel' to it) if you so desire
+This document describes how to log in, run the apptainer container, cuda setup, container and how to start up jupyter (and 'tunnel' to it) if you so desire. Few hints on github are also provided.
 
 ## ssh setup and container
 
