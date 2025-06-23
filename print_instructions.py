@@ -14,7 +14,7 @@ def print_instructions():
         if match is not None:
             port=match.group(1)
             print("On your laptop open a new terminal and open an ssh tunnel by pasting this:")
-            print('ssh -L {}:localhost:{} ML1-TRISEP -N -f'.format(port, port))
+            print('ssh -L {}:localhost:{} ML-TRISEP -N -f'.format(port, port))
             print("then in your browser address bar paste:")
             print(line.lstrip())
             
