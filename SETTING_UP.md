@@ -3,7 +3,7 @@ This document describes how to log in, run the apptainer container, cuda setup, 
 
 ## ssh setup and container
 
-Please note that there is ```fail2ban``` running on our servers - which blocks offending ip after three incrrect password attemts - evn if the string provided is empty (i.e. 'Enter' was hit). Please ```CTRL+C``` if you are being asked for a password.
+Please note that there is ```fail2ban``` running on our servers - which blocks offending ip after three incorrect password attemts - evn if the string provided is empty (i.e. 'Enter' was hit). Please ```CTRL+C``` if you are being asked for a password.
 A configuration ssh file has been provided for you [here](https://github.com/wfedorko/TRISEP_2025_ssh_config) and some tips provided in the README there. Keep in mind that the location of the keys ```IdentityFile ~/.ssh/id_ed25519``` is assumed to be the default one. If you provided an alternatve location - you should change the value of these fields for both connections. 
 You should have two connections named ```ML-TRISEP-CONTAINER``` and ```ML-TRISEP```. The first one will launch the apptainer container. The second one is a 'bare' login. Simply type ```ssh ML-TRISEP``` or ```ssh ML-TRISEP-CONTAINER``` on your laptop terminal.
 
