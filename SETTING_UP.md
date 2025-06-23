@@ -23,7 +23,7 @@ Leave the defaults (location and empty passphrase).
 Then print the contents of your public key:
 ```cat ~/.ssh/id_ed25519.pub```
 highlight and copy the entire string displayed and then paste it into your github account key uplod interface (click on your avatar in top right corner -> Settings -> SSH and GPG keys -> New SSH key.)  
-It is recommended that one member of the group forks the tutorial rep and invites other members as Maintainers or Owners. Each member can then clone the repo using the ssh protocol (apropriate link will be displayed when the green <Code> button is clicked on the min repository page). All members of a given group cn then collaborte on the project using the stndard git workflows.
+It is recommended that one member of the group forks the tutorial repo and invites other members as Maintainers or Owners. Each member can then clone the repo using the ssh protocol (apropriate link will be displayed when the green ```<> Code``` button is clicked on the main repository page). All members of a given group cn then collaborte on the project using the stndard git workflows.
 
 
 
