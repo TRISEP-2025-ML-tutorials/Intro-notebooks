@@ -17,7 +17,7 @@ Each group has been assigned a single GPU to share. This is specified by ```CUDA
 If you'd like to use jupyter oucan do so with all the library bindings. Log in to ML-TRISEP-CONTAINER or ML-TRISEP and start the container manually and go to the directory where you'd like the 'root' of the jupyter to be. Download [start_jupyternotebook.sh](https://github.com/TRISEP-2025-ML-tutorials/Intro-notebooks/blob/main/start_jupyternotebook.sh) and [print_instructions.py](https://github.com/TRISEP-2025-ML-tutorials/Intro-notebooks/blob/main/print_instructions.py) Now run ```./start_jupyternotebook.sh```. This will start the server and print instructions to open a ssh tunnel to the server and the address to copy into the browser window.
 
 ## Working with github
-It is recmmended to make a github.com account account for every member of the team and upload yuor public ssh key generated onthe TRIUMF ML machines you are using. Note that this is distinct from the key you have sent previously that was generated onyour laptop. After logging in to ML-TRISEP type:
+It is recmmended to make a github.com account account for every member of the team and upload your public ssh key generated onthe TRIUMF ML machines you are using. Note that this is distinct from the key you have sent previously that was generated onyour laptop. After logging in to ML-TRISEP type:
 ```ssh-keygen -t ed25519```
 Leave the defaults (location and empty passphrase).
 Then print the contents of your public key:
