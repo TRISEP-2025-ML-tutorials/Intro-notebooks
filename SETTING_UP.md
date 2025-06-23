@@ -9,9 +9,9 @@ You should have two connections named ```ML-TRISEP-CONTAINER``` and ```ML-TRISEP
 
 If you want to use ```screen``` or ```tmux``` or ```nohup``` to run longer jobs while allowing for a network disconnect you can launch the container inside ```tmux/screen``` by copying and pasting the command specified by ```RemoteCommand``` fields specified in the ```ML-TRISEP-CONTAINER``` connection. 
 
-## cuda setup and environment variable
+## GPU setup and environment variable
 
-Each group has been assigned a single GPU to share. This is specified by ```CUDA_VISIBLE_DEVICES``` environment variable which has been set on login (in your ```.bashrc``` file). Please do not change this. The GPUs can accept multiple concurrent jobs - but overloading GPU memory is likely to cause jobs crashing. Please discuss with your team mates as to who is running jobs on 'your' GPU at any given time and if it is ok to add anoter job.
+Each group has been assigned a single GPU to share. This is specified by ```CUDA_VISIBLE_DEVICES``` environment variable which has been set on login (in your ```.bashrc``` file). Please do not change this. Please check that the variable is set and it is the same for all team members. Type ```echo $CUDA_VISIBLE_DEVICES```. The GPUs can accept multiple concurrent jobs - but overloading GPU memory is likely to cause jobs crashing. Please discuss with your team mates as to who is running jobs on 'your' GPU at any given time and if it is ok to add anoter job. One can display the status of all GPUs by typing ```nvidia-smi```.
 
 ## jupyter - starting up and connecting to
 If you'd like to use jupyter you can do so with all the library bindings. Log in to ML-TRISEP-CONTAINER or ML-TRISEP and start the container manually and go to the directory where you'd like the 'root' of the jupyter to be. Download [start_jupyternotebook.sh](https://github.com/TRISEP-2025-ML-tutorials/Intro-notebooks/blob/main/start_jupyternotebook.sh) and [print_instructions.py](https://github.com/TRISEP-2025-ML-tutorials/Intro-notebooks/blob/main/print_instructions.py) Now run ```./start_jupyternotebook.sh```. This will start the server and print instructions to open a ssh tunnel to the server and the address to copy into the browser window.
