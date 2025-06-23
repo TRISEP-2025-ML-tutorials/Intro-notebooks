@@ -22,8 +22,8 @@ It is recmmended to make a github.com account account for every member of the te
 Leave the defaults (location and empty passphrase).
 Then print the contents of your public key:
 ```cat ~/.ssh/id_ed25519.pub```
-Highlight and copy the entire string displayed and then paste it into your github account key uplod interface (click on your avatar in top right corner on github.com -> Settings -> SSH and GPG keys -> New SSH key.)  
-It is recommended that one member of the group forks the tutorial repo and invites other members as Maintainers or Owners. Each member can then clone the repo using the ssh protocol (apropriate link will be displayed when the green ```<> Code``` button is clicked on the main repository page). All members of a given group can then collaborte on the project using the stndard git workflows.
+Highlight and copy the entire string displayed and then paste it into your github account key upload interface (click on your avatar in top right corner on github.com -> Settings -> SSH and GPG keys -> New SSH key.)  
+It is recommended that one member of the group forks (a how to [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository)) the tutorial repo and invites other members as Maintainers or Owners. Each member can then clone the repo using the ssh protocol (apropriate link will be displayed when the green ```<> Code``` button is clicked on the main repository page). All members of a given group can then collaborte on the project using the stndard git workflows.
 
 
 
