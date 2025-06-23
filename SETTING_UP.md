@@ -14,9 +14,16 @@ If you want to use ```screen``` or ```tmux``` or ```nohup``` to run longer jobs 
 Each group has been assigned a single GPU to share. This is specified by ```CUDA_VISIBLE_DEVICES``` environment variable which has been set on login (in your ```.bashrc``` file). Please do not change this. The GPUs can accept multiple concurrent jobs - but overloading GPU memory is likely to cause jobs crashing. Please discuss with your team mates as to who is running jobs on 'your' GPU at any given time and if it is ok to add anoter job.
 
 ## jupyter - starting up and connecting to
+If you'd like to use jupyter oucan do so with all the library bindings. Log in to ML-TRISEP-CONTAINER or ML-TRISEP and start the container manually and go to the directory where you'd like the 'root' of the jupyter to be. Download [start_jupyternotebook.sh](https://github.com/TRISEP-2025-ML-tutorials/Intro-notebooks/blob/main/start_jupyternotebook.sh) and [print_instructions.py](https://github.com/TRISEP-2025-ML-tutorials/Intro-notebooks/blob/main/print_instructions.py) This will start the server and print instructions to open a ssh tunnel to the server and the address to copy into the browser window.
 
-## github
-
+## Working with github
+It is recmmended to make a github.com account account for every member of the team and upload yuor public ssh key generated onthe TRIUMF ML machines you are using. Note that this is distinct from the key you have sent previously that was generated onyour laptop. After logging in to ML-TRISEP type:
+```ssh-keygen -t ed25519```
+Leave the defaults (location and empty passphrase).
+Then print the contents of your public key:
+```cat ~/.ssh/id_ed25519.pub```
+highlight and copy the entire string displayed and then paste it into your github account key uplod interface (click on your avatar in top right corner -> Settings -> SSH and GPG keys -> New SSH key.)  
+It is recommended that one member of the group forks the tutorial rep and invites other members as Maintainers or Owners. Each member can then clone the repo using the ssh protocol (apropriate link will be displayed when the green <Code> button is clicked on the min repository page). All members of a given group cn then collaborte on the project using the stndard git workflows.
 
 
 
